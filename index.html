@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resume Maker</title>
+        <link rel="stylesheet" type="text/css" href="cssMain.css">
+        
+    </head>
+    <body>
+    <h1 align="center">Resume Maker</h1>
+        <form onsubmit="submitResume()">
+            <hr>
+            <label>Name:</label>
+            <input type="text" placeholder="John Doe" id="nameTxt"/><br>
+            <label>Email:</label>
+            <input type="text" placeholder="xyz@example.com" id="emailTxt"/><input type="checkbox" id="emailChk"><label>Include?</label><br>
+            <label>Contact Number:</label>
+            <input type="text" placeholder="(123) 456-7890" id=numTxt><input type="checkbox" id="numChk"><label>Include?</label><br>
+            
+            <hr>
+            
+            <label>Summary:</label><br>
+            <textarea rows="5" cols="40" placeholder="Write a summary of yourself!" id="sumTxt"></textarea><br>
+            
+            <hr>
+            
+            <label>Education 1:</label><input type="checkbox" id="eduChk1"><label>Include?</label><br>
+            <label>Degree:</label>
+            <input type="text" id="eduDeg1"/><br>
+            <label>School Name:</label>
+            <input type="text" id="eduNam1"/><br>
+            <label>Location:</label>
+            <input type="text" id="eduLoc1"/><br>
+            <label>Time Attended:</label>
+            <input type="text" id="eduTim1" placeholder="Jan 20XX - Dec 20XX"/><br>
+            
+            <br>
+            
+            <label>Education 2:</label><input type="checkbox" id="eduChk2"><label>Include?</label><br>
+            <label>Degree:</label>
+            <input type="text" id="eduDeg2"/><br>
+            <label>School Name:</label>
+            <input type="text" id="eduNam2"/><br>
+            <label>Location:</label>
+            <input type="text" id="eduLoc2"/><br>
+            <label>Time Attended:</label>
+            <input type="text" id="eduTim2" placeholder="Jan 20XX - Dec 20XX"/><br>
+            
+            <hr>
+            
+            <label>Work Experience 1:</label><input type="checkbox" id="jobChk1"><label>Include?</label><br>
+            <label>Job Title:</label>
+            <input type="text" id="jobTit1"/><br>
+            <label>Company Name:</label>
+            <input type="text" id="jobCom1"/><br>
+            <label>Location:</label>
+            <input type="text" id="jobLoc1"/><br>
+            <label>Time Worked:</label>
+            <input type="text" id="jobTim1" placeholder="Jan 20XX - Dec 20XX"/><br>
+            <label>Extra Info:</label><br>
+            <textarea rows="5" cols="40" id="jobInf1"></textarea><br>
+            
+            <br>
+            
+            <label>Work Experience 2:</label><input type="checkbox" id="jobChk2"><label>Include?</label><br>
+            <label>Job Title:</label>
+            <input type="text" id="jobTit2"/><br>
+            <label>Company Name:</label>
+            <input type="text" id="jobCom2"/><br>
+            <label>Location:</label>
+            <input type="text" id="jobLoc2"/><br>
+            <label>Time Worked:</label>
+            <input type="text" id="jobTim2" placeholder="Jan 20XX - Dec 20XX"/><br>
+            <label>Extra Info:</label><br>
+            <textarea rows="5" cols="40" id="jobInf2"></textarea><br>
+            
+            <br>
+            
+            <label>Work Experience 3:</label><input type="checkbox" id="jobChk3"><label>Include?</label><br>
+            <label>Job Title:</label>
+            <input type="text" id="jobTit3"/><br>
+            <label>Company Name:</label>
+            <input type="text" id="jobCom3"/><br>
+            <label>Location:</label>
+            <input type="text" id="jobLoc3"/><br>
+            <label>Time Worked:</label>
+            <input type="text" id="jobTim3" placeholder="Jan 20XX - Dec 20XX"/><br>
+            <label>Extra Info:</label><br>
+            <textarea rows="5" cols="40" id="jobInf3"></textarea><br>
+            
+            <hr>
+            
+            <label>Additional Information:</label><input type="checkbox" id="addChk"><label>Include?</label><br>
+            <textarea rows="5" cols="40" id="addTxt"></textarea><br>
+            
+            <hr>
+            
+            <input type="submit" value="Submit and Download!">
+            
+        </form>
+        <script src="jsMain.js"></script>
+    </body>
+</html>
